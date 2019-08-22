@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C51E822230BA62600F18EF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C51E821230BA62600F18EF7 /* AppDelegate.m */; };
+		8C51E825230BA62600F18EF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C51E824230BA62600F18EF7 /* ViewController.m */; };
+		8C51E828230BA62600F18EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C51E826230BA62600F18EF7 /* Main.storyboard */; };
+		8C51E82A230BA62800F18EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C51E829230BA62800F18EF7 /* Assets.xcassets */; };
+		8C51E82D230BA62800F18EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C51E82B230BA62800F18EF7 /* LaunchScreen.storyboard */; };
+		8C51E830230BA62800F18EF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C51E82F230BA62800F18EF7 /* main.m */; };
+		8C5A92D6230CEE6D00EF776D /* LHHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A92D5230CEE6D00EF776D /* LHHook.m */; };
+		8C5A92D9230CF7C100EF776D /* UIViewController+Points.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A92D8230CF7C100EF776D /* UIViewController+Points.m */; };
+		8C5A92DD230D13F000EF776D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A92DC230D13F000EF776D /* SecondViewController.m */; };
+		8C5A92E0230D24C600EF776D /* UIButton+TouchInside.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A92DF230D24C600EF776D /* UIButton+TouchInside.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30759ED4C790560E2082FAAA /* Pods-LH--AOP编程实例.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LH--AOP编程实例.debug.xcconfig"; path = "Target Support Files/Pods-LH--AOP编程实例/Pods-LH--AOP编程实例.debug.xcconfig"; sourceTree = "<group>"; };
+		52B72419805AAA3E3628A247 /* Pods-LH--AOP编程实例.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LH--AOP编程实例.release.xcconfig"; path = "Target Support Files/Pods-LH--AOP编程实例/Pods-LH--AOP编程实例.release.xcconfig"; sourceTree = "<group>"; };
+		8C51E81D230BA62600F18EF7 /* LH--AOP编程实例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LH--AOP编程实例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C51E820230BA62600F18EF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C51E821230BA62600F18EF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C51E823230BA62600F18EF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C51E824230BA62600F18EF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C51E827230BA62600F18EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C51E829230BA62800F18EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C51E82C230BA62800F18EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C51E82E230BA62800F18EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C51E82F230BA62800F18EF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C5A92D4230CEE6D00EF776D /* LHHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHHook.h; sourceTree = "<group>"; };
+		8C5A92D5230CEE6D00EF776D /* LHHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHHook.m; sourceTree = "<group>"; };
+		8C5A92D7230CF7C100EF776D /* UIViewController+Points.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Points.h"; sourceTree = "<group>"; };
+		8C5A92D8230CF7C100EF776D /* UIViewController+Points.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Points.m"; sourceTree = "<group>"; };
+		8C5A92DB230D13F000EF776D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8C5A92DC230D13F000EF776D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8C5A92DE230D24C600EF776D /* UIButton+TouchInside.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TouchInside.h"; sourceTree = "<group>"; };
+		8C5A92DF230D24C600EF776D /* UIButton+TouchInside.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TouchInside.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C51E81A230BA62600F18EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C51E814230BA62600F18EF7 = {
+			isa = PBXGroup;
+			children = (
+				8C51E81F230BA62600F18EF7 /* LH--AOP编程实例 */,
+				8C51E81E230BA62600F18EF7 /* Products */,
+				EFF4922368335C2673BBAC67 /* Pods */,
+				927F1DD37DE24A13B98BF105 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C51E81E230BA62600F18EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C51E81D230BA62600F18EF7 /* LH--AOP编程实例.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C51E81F230BA62600F18EF7 /* LH--AOP编程实例 */ = {
+			isa = PBXGroup;
+			children = (
+				8C5A92DA230D12B500EF776D /* CustomerClass */,
+				8C51E820230BA62600F18EF7 /* AppDelegate.h */,
+				8C51E821230BA62600F18EF7 /* AppDelegate.m */,
+				8C51E823230BA62600F18EF7 /* ViewController.h */,
+				8C51E824230BA62600F18EF7 /* ViewController.m */,
+				8C5A92DB230D13F000EF776D /* SecondViewController.h */,
+				8C5A92DC230D13F000EF776D /* SecondViewController.m */,
+				8C51E826230BA62600F18EF7 /* Main.storyboard */,
+				8C51E829230BA62800F18EF7 /* Assets.xcassets */,
+				8C51E82B230BA62800F18EF7 /* LaunchScreen.storyboard */,
+				8C51E82E230BA62800F18EF7 /* Info.plist */,
+				8C51E82F230BA62800F18EF7 /* main.m */,
+			);
+			path = "LH--AOP编程实例";
+			sourceTree = "<group>";
+		};
+		8C5A92DA230D12B500EF776D /* CustomerClass */ = {
+			isa = PBXGroup;
+			children = (
+				8C5A92D7230CF7C100EF776D /* UIViewController+Points.h */,
+				8C5A92D8230CF7C100EF776D /* UIViewController+Points.m */,
+				8C5A92DE230D24C600EF776D /* UIButton+TouchInside.h */,
+				8C5A92DF230D24C600EF776D /* UIButton+TouchInside.m */,
+				8C5A92D4230CEE6D00EF776D /* LHHook.h */,
+				8C5A92D5230CEE6D00EF776D /* LHHook.m */,
+			);
+			path = CustomerClass;
+			sourceTree = "<group>";
+		};
+		927F1DD37DE24A13B98BF105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFF4922368335C2673BBAC67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30759ED4C790560E2082FAAA /* Pods-LH--AOP编程实例.debug.xcconfig */,
+				52B72419805AAA3E3628A247 /* Pods-LH--AOP编程实例.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C51E81C230BA62600F18EF7 /* LH--AOP编程实例 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C51E833230BA62800F18EF7 /* Build configuration list for PBXNativeTarget "LH--AOP编程实例" */;
+			buildPhases = (
+				A8AC5FC5765F319610AFF1CA /* [CP] Check Pods Manifest.lock */,
+				8C51E819230BA62600F18EF7 /* Sources */,
+				8C51E81A230BA62600F18EF7 /* Frameworks */,
+				8C51E81B230BA62600F18EF7 /* Resources */,
+				93C0333FD2C3C569DD06591A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LH--AOP编程实例";
+			productName = "LH--AOP编程实例";
+			productReference = 8C51E81D230BA62600F18EF7 /* LH--AOP编程实例.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C51E815230BA62600F18EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = chenlonghai;
+				TargetAttributes = {
+					8C51E81C230BA62600F18EF7 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 8C51E818230BA62600F18EF7 /* Build configuration list for PBXProject "LH--AOP编程实例" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C51E814230BA62600F18EF7;
+			productRefGroup = 8C51E81E230BA62600F18EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C51E81C230BA62600F18EF7 /* LH--AOP编程实例 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C51E81B230BA62600F18EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C51E82D230BA62800F18EF7 /* LaunchScreen.storyboard in Resources */,
+				8C51E82A230BA62800F18EF7 /* Assets.xcassets in Resources */,
+				8C51E828230BA62600F18EF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93C0333FD2C3C569DD06591A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LH--AOP编程实例/Pods-LH--AOP编程实例-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LH--AOP编程实例/Pods-LH--AOP编程实例-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LH--AOP编程实例/Pods-LH--AOP编程实例-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8AC5FC5765F319610AFF1CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LH--AOP编程实例-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C51E819230BA62600F18EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5A92DD230D13F000EF776D /* SecondViewController.m in Sources */,
+				8C51E825230BA62600F18EF7 /* ViewController.m in Sources */,
+				8C5A92D9230CF7C100EF776D /* UIViewController+Points.m in Sources */,
+				8C51E830230BA62800F18EF7 /* main.m in Sources */,
+				8C5A92D6230CEE6D00EF776D /* LHHook.m in Sources */,
+				8C5A92E0230D24C600EF776D /* UIButton+TouchInside.m in Sources */,
+				8C51E822230BA62600F18EF7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C51E826230BA62600F18EF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C51E827230BA62600F18EF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C51E82B230BA62800F18EF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C51E82C230BA62800F18EF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C51E831230BA62800F18EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C51E832230BA62800F18EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C51E834230BA62800F18EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30759ED4C790560E2082FAAA /* Pods-LH--AOP编程实例.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Z2477437E;
+				INFOPLIST_FILE = "LH--AOP编程实例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chenlonghai.LH--AOP----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C51E835230BA62800F18EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B72419805AAA3E3628A247 /* Pods-LH--AOP编程实例.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Z2477437E;
+				INFOPLIST_FILE = "LH--AOP编程实例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chenlonghai.LH--AOP----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C51E818230BA62600F18EF7 /* Build configuration list for PBXProject "LH--AOP编程实例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C51E831230BA62800F18EF7 /* Debug */,
+				8C51E832230BA62800F18EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C51E833230BA62800F18EF7 /* Build configuration list for PBXNativeTarget "LH--AOP编程实例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C51E834230BA62800F18EF7 /* Debug */,
+				8C51E835230BA62800F18EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C51E815230BA62600F18EF7 /* Project object */;
+}
